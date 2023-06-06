@@ -27,12 +27,13 @@ Taking the inception net as a basepoint, I chopped off the end classifier for im
 The training process was long, mostly consisting of attempting different mini-nets and training leveles over epochs of training and then seeing the training accuracy (or the test accuracy, because running the notebook as a submission was much easier on my computer). I attempted a range of strategies, like making the classifier more interesting, leaving validation data out to allow more fine tuning without overfitting, and swapping the pretrained model to see how they comapre (in preparation for an ensemble model), but the model that scored the best was a very simple classifier off the back of the pretrained, with just a few epochs of training to avoid overfitting. With the one for one replacement, I was able to replicate InceptionNet's T1 error almost exactly.
 
 ## Model Demo
+<p align="center">
 <iframe
 	src="https://bricecm-inception-birds.hf.space"
 	frameborder="0"
-	width="650"
+	width="850"
 	height="450"
-></iframe>
+></iframe></p>
 
 ## Discussion
 ### Problems
