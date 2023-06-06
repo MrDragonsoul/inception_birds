@@ -1,6 +1,7 @@
 # Inception Birds
 Kaggle competition notebook using an inceptionnet based model for transfer learning to perform bird classification.
 
+There's a video here now!
 
 <!--     Problem description
     Previous work (including what you used for your method i.e. pretrained models)
@@ -29,7 +30,7 @@ The training process was long, mostly consisting of attempting different mini-ne
 <iframe
 	src="https://bricecm-inception-birds.hf.space"
 	frameborder="0"
-	width="850"
+	width="650"
 	height="450"
 ></iframe>
 
@@ -39,4 +40,4 @@ I ran into a variety of technical issues, but one of the main issues I encounter
 ### Next Steps
 With more time to work on the model, I'd like to actually get an ensemble model working (because they interest me, but also because they're greater than their parts). I would have to use less tanky models as my constituents, but I think if I could cycle what's in ram and train the constiuents individually first it could work.
 ### Approach Differences and Benefits
-
+My approach isn't super different from standard transfer learning techniques. I allowed the pretrained to be affected by the final classification training, which made it less general and probably contributed to my overfitting problems while increasing training, and while I tried a bunch of techniques, the model that performed the best ended up being a very standard re-decoder, finetuned by me but not outside standard practice. 
