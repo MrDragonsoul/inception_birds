@@ -37,6 +37,7 @@ The training process was long, mostly consisting of attempting different mini-ne
 	width="850"
 	height="450"
 ></iframe></p>
+![Hugging face space](https://huggingface.co/spaces/bricecm/inception_birds)
 
 ## Discussion
 ### Problems
