@@ -1,7 +1,7 @@
 # Inception Birds
 Kaggle competition notebook using an inceptionnet based model for transfer learning to perform bird classification.
 
-![This is a video link!](https://github.com/MrDragonsoul/inception_birds/assets/45057669/b085ce60-3bb9-4aa1-9f05-480b3d2a34a8)
+![](https://github.com/MrDragonsoul/inception_birds/assets/45057669/b085ce60-3bb9-4aa1-9f05-480b3d2a34a8)
 
 Sorry about the cutoff, had to trim to under 10MB
 
